@@ -6,6 +6,8 @@ En este documento se encontrara toda la informacion acerca del proyecto "Profess
 + Las funciones del software
 + Como deberia de funcionar 
 
+Ademas se encontraran casos de uso, diagramas de clases y toda la informacion necesaria.
+
   ### Purpose 
   
   ### Scope
@@ -32,7 +34,7 @@ En este documento se encontrara toda la informacion acerca del proyecto "Profess
   
   ## Specific requirements ##
   
-  ### User interfcaes
+  ### User interfaces
   
   ### Hardware interfaces
   
