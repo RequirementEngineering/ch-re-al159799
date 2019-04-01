@@ -1,5 +1,11 @@
   ## Introduction ##
+ 
+En este documento se encontrara toda la informacion acerca del proyecto "Professional Gym", con el objetivo de que se guarde como documentacion para un futuro posible desarrollo del mismo. Se especificaran:
   
++ Requisitos del cliente
++ Las funciones del software
++ Como deberia de funcionar 
+
   ### Purpose 
   
   ### Scope
