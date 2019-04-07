@@ -29,7 +29,7 @@ Dumbbells and / or weights: A dumbbell is a piece of equipment used in weight tr
   
   ### 1.4 Reference
   
-  
+ SPORTS, April 7, 2019 of gymventures https://www.gymventures.com/
   
   ### 1.5 Overview
   
@@ -79,13 +79,55 @@ The next sections of the document will contain information about the system, div
   
   ## 3. Specific requirements ##
   
-  ### 3.1 User interfaces
+  ### 3.1 External Interfaces
   
+  Here will be described how the system shold look for the users.
   
+  + Login Menu
   
-  ### 3.2 Hardware interfaces
+  Once the software is initiated the login menu shold pop out, that will determinate the options that will show on the interface, one for the employee or other for the administrator.
   
-  ### 3.3 Software interfaces
+  + Main menu
   
-  ### 3.4 Communications interface
+  The employee will have a menu whit two tabs, one for the administration of the clients and the other for the inventory of the equipment, the client administration tab will have two buttons one to add a new costumer, that will send the user to another menu (explained later), the other button is for see the already registred clients (explained later). The inventory tab will have also two buttons one for add a new equipment, and the other to see the list of the equipment(explained later). 
   
+ The administrator whil have an extra tab, the employee tab, that will allow to the asministrator to se the history of changes on the data base, and another button to see the information of the employees.
+ 
+ + Client menu
+ 
+ This menu as explained early will have two buttons, the add button whill pop out a menu whit text boxes that will ask for the information of the costumer such as the name, number, addres, and optonial type of blood, bellow that whill have a button to save the information in the data base.
+ 
+ The button for the already custumers in the system will pop out a list of the customers whit two options modify and delete, the modify button will show text boxes that will ask for the information to change, then a save button to save the changes. To use the delete button the user will have selected the client that is going to be deleted, asking for confirmation.
+ 
+ + Invantary menu
+ 
+ This menu will have two buttons, the add button will pop out a menu asking for the information of the new equipment, like the brand, type of equipment and weight, bellow that will be a button to save the information in the data base.
+ 
+ The button for the inventory will show a list of the equipment with it information, with the two options of making changes or delete, the changes will pop out the text boxes to make the changes and a save button, while the delete button the user will have selected the client that is going to be deleted, asking for confirmation.
+ 
+ + Employee menu
+ 
+ This tab is exlusive for the administrator, with two buttons one to see the history of changes that will show a list of the changes and date, the other button will show a list of the employees and their information, this will allow to the administrator to make changes if he hires a new employee or he fires another, with the list of the employees will have two buttons one to delete and another to modify, the modify one will ask the information to modify and the delete one will ask for a confirmation. 
+  
+  ### 3.2 Functional requirements
+  
+  * The user will have to login to use the system.
+  
+ Functional requirements by user:
+ 
+ * Employee 
+   * This user can add new customers.
+   * Modify and delete the information of existing customer.
+   * Add new equipment.
+   * Modify and delete information of equipment.
+   
+ * Administrator
+   * This user can make all of the functions of the employee.
+   * Also can modify the information of the employees.
+   * See a history of changes made by the employee.
+  
+  ### 3.3 Non-functional requirements
+
+  * The interface made in Java will be conected to a data base made on Mysql.
+  * The system will be local.
+
