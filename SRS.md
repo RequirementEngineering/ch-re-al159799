@@ -45,7 +45,7 @@ The next sections of the document will contain information about the system, div
   
   These are the functions that the system should do:
   
-* Employee
+* Receptionist
    * Add a new customer to the systme.
    * Once the customer is on the system, the user can see his information and modify it and also see if he has a debt.
    * Delete a customer.
@@ -55,15 +55,15 @@ The next sections of the document will contain information about the system, div
    * Delete equipment of the system.
    
 * Administrator
-   * Manage the employee information.
-   * All the functions of the employee.
+   * Manage the receptionist information.
+   * All the functions of the Receptionist.
   
 ### 2.3 User characteristics
   
-  In this system there are two kind of users, the administrator and the employee.
-  The employee will be in the reception of the gym attending all of the costumers, capturing the costumer information, whit the capacity of modefy the information, also this user will keep an inventory of the machines and equipment of the gym.
+  In this system there are two kind of users, the administrator and the receptionist.
+  The receptionist will be in the reception of the gym attending all of the costumers, capturing the costumer information, whit the capacity of modefy the information, also this user will keep an inventory of the machines and equipment of the gym.
   
-  The administrator will have the same capabilities as the employee but this user can also modify the employee information. 
+  The administrator will have the same capabilities as the receptionist but this user can also modify the receptionist information. 
   
 ### 2.4 Constraint
   
@@ -85,13 +85,13 @@ The next sections of the document will contain information about the system, div
   
  + Login Menu
   
-  Once the software is initiated the login menu shold pop out, that will determinate the options that will show on the interface, one for the employee or other for the administrator.
+  Once the software is initiated the login menu shold pop out, that will determinate the options that will show on the interface, one for the receptionist or other for the administrator.
   
  + Main menu
   
-  The employee will have a menu whit two tabs, one for the administration of the clients and the other for the inventory of the equipment, the client administration tab will have two buttons one to add a new costumer, that will send the user to another menu (explained later), the other button is for see the already registred clients (explained later). The inventory tab will have also two buttons one for add a new equipment, and the other to see the list of the equipment(explained later). 
+  The receptionist will have a menu whit two tabs, one for the administration of the clients and the other for the inventory of the equipment, the client administration tab will have two buttons one to add a new costumer, that will send the user to another menu (explained later), the other button is for see the already registred clients (explained later). The inventory tab will have also two buttons one for add a new equipment, and the other to see the list of the equipment(explained later). 
   
- The administrator whil have an extra tab, the employee tab, that will allow to the asministrator to se the history of changes on the data base, and another button to see the information of the employees.
+ The administrator whil have an extra tab, the receptionist tab, that will allow to the asministrator to se the history of changes on the data base, and another button to see the information of the receptionist.
  
  + Client menu
  
@@ -99,7 +99,7 @@ The next sections of the document will contain information about the system, div
  
  The button for the already custumers in the system will pop out a list of the customers whit two options modify and delete, the modify button will show text boxes that will ask for the information to change, then a save button to save the changes. To use the delete button the user will have selected the client that is going to be deleted, asking for confirmation.
  
- + Invantary menu
+ + Inventary menu
  
  This menu will have two buttons, the add button will pop out a menu asking for the information of the new equipment, like the brand, type of equipment and weight, bellow that will be a button to save the information in the data base.
  
@@ -115,19 +115,23 @@ The next sections of the document will contain information about the system, div
   
  Functional requirements by user:
  
-* Employee 
+* Receptionist 
    * This user can add new customers.
    * Modify and delete the information of existing customer.
    * Add new equipment.
    * Modify and delete information of equipment.
    
 * Administrator
-   * This user can make all of the functions of the employee.
-   * Also can modify the information of the employees.
-   * See a history of changes made by the employee.
+   * This user can make all of the functions of the receptionist.
+   * Also can modify the information of the receptionist.
+   * See a history of changes made by the receptionist.
   
   ### 3.3 Non-functional requirements
 
   * The interface made in Java will be conected to a data base made on Mysql.
   * The system will be local.
+  
+  ### Class Diagram
+  
+  <img src="https://thumbs.subefotos.com/7c829368328717b2847a1238dd9e6138o.jpg" />
 
