@@ -1,55 +1,91 @@
-  ## Introduction ##
+  ## 1. Introduction ##
  
-En este documento se encontrara toda la informacion acerca del proyecto "Professional Gym", con el objetivo de que se guarde como documentacion para un futuro posible desarrollo del mismo. Se especificaran:
+  ### 1.1 Purpose 
   
-+ Requisitos del cliente
-+ Las funciones del software
-+ Como deberia de funcionar 
-
-Ademas se encontraran casos de uso, diagramas de clases y toda la informacion necesaria.
-
-  ### Purpose 
+The purpose of this project is to design a system and give the user an order regarding the information stored in their gym, you can access it, modify it and update it, all this because they do not have a software with these capabilities, until now they are saving their information in handwritten notes or notes on the computer.
   
-  El proposito de este proyecto es darle al usuario un orden en cuanto a la informacion resguardada de su gimnasio, podra acceder a ella, modificarla y actualizarla, todo esto por que ellos no cuentan con un software con estas capacidades, guardando su informacion en notas a mano o notas en la computadora.
+  ### 1.2 Scope
   
-  ### Scope
+The software will have the capacity to store information given by the user thanks to an interface connected to a local database, this will allow you to:
   
-  El software tendra la capacidad de almacenar informacion dada por el usuario gracias a una intefaz conectada a una base de datos local, esta le permitira:
- + Guardar informacion de los clientes que acudan al gimnasio. 
- + Tendra la capacidad de mostrar cuando alguno de estos clientes tenga un adeudo. 
- Tambien con respecto al equipo del gimnasio:
- + Tener un registro de las maquinas utilizadas.
- + Tener un registro de las pesas y demas equipo.
+ + Save information from clients who come to the gym.
+ + It will have the ability to show when one of these customers has a debt.
  
- Todo esto con la finalidad de tener un mejor control de la informacion del gimnasio.
+ Also with regard to the gym equipment:
+ 
+ + Have a record of the machines used.
+ + Have a record of the weights and other equipment.
+ 
+ All this in order to have a better control of the gym information.
   
-  ### Definictions, acronyms, and abbreviations
+  ### 1.3 Definictions, acronyms, and abbreviations
   
-  ### Reference
+Gym: A gym is a place that allows sports or exercise in an enclosed area with several machines and sporting goods available to those who visit.
+
+Machines: Devices used to perform various exercises, normally located in gyms.
+
+Dumbbells and / or weights: A dumbbell is a piece of equipment used in weight training, it is a type of free weight. They can be used individually or in pairs (one in each hand).
+
   
-  ### Overview
+  ### 1.4 Reference
   
-  ## Overall Description ##
   
-  ### Product perspective
   
-  ### Product functions
+  ### 1.5 Overview
   
-  ### User characteristics
+The next sections of the document will contain information about the system, divided in two sections, section 2 will give a overall description, containing the functions, constrains and the people involved. Section 3 will give all the specific requirements that the system should deliver.
   
-  ### Constraint
+  ## 2. Overall Description ##
   
-  ### Assumptions and dependencies
+  ### 2.1 Product perspective
   
-  ### Apportioning of requirements
+  The system consist in a software for the user, capable of save information into a data base working localy, with the options of create, modify or delete the information, all of these whit the interface that will be conected to the data base.
   
-  ## Specific requirements ##
+  ### 2.2 Product functions
   
-  ### User interfaces
+  These are the functions that the system should do:
   
-  ### Hardware interfaces
+* Employee
+   * Add a new customer to the systme.
+   * Once the customer is on the system, the user can see his information and modify it and also see if he has a debt.
+   * Delete a customer.
+   * Add new machines to the system.
+   * Delete machines of the system.
+   * Add new equipment to the system.
+   * Delete equipment of the system.
+   
+* Administrator
+   * Manage the employee information.
+   * All the functions of the employee.
   
-  ### Software interfaces
+  ### 2.3 User characteristics
   
-  ### Communications interface
+  In this system there are two kind of users, the administrator and the employee.
+  The employee will be in the reception of the gym attending all of the costumers, capturing the costumer information, whit the capacity of modefy the information, also this user will keep an inventory of the machines and equipment of the gym.
+  
+  The administrator will have the same capabilities as the employee but this user can also modify the employee information. 
+  
+  ### 2.4 Constraint
+  
+  Whithout any at the moment.
+  
+  ### 2.5 Assumptions and dependencies
+  
+  The gym will provide the information about the o going costumer and equipment.
+  
+  ### 2.6 Apportioning of requirements
+  
+  The possibility of doing check out and check in of the costumers.
+  
+  ## 3. Specific requirements ##
+  
+  ### 3.1 User interfaces
+  
+  
+  
+  ### 3.2 Hardware interfaces
+  
+  ### 3.3 Software interfaces
+  
+  ### 3.4 Communications interface
   
