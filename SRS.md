@@ -133,5 +133,4 @@ The next sections of the document will contain information about the system, div
   
   ### Class Diagram
   
-  <img src="https://thumbs.subefotos.com/7c829368328717b2847a1238dd9e6138o.jpg" />
-
+![alt text](https://github.com/RequirementEngineering/ch-re-al159799/blob/master/Diagram%20Class.png)
