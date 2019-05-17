@@ -1,6 +1,6 @@
 ## Table of Contents and Index
 * [1. Introduction](#1-Introduction)
-  * [1.1 Purpose](#1.1-Purpose)
+  * [1.1 Purpose](#11-Purpose)
   * [1.2 Scope](#1.2-Scope)
   * [1.3 Definitions, acronymus, and abbreviations](#1.3-Definictions,-acronyms,-and-abbreviations)
   * [1.4 References](#1.4-Reference)
@@ -26,7 +26,7 @@
 
 ## 1 Introduction 
  
-## 1.1 Purpose 
+## 11 Purpose 
   
 The purpose of this project is to design a system and give the user an order regarding the information stored in their gym, you can access it, modify it and update it, all this because they do not have a software with these capabilities, until now they are saving their information in handwritten notes or notes on the computer.
   
