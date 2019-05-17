@@ -1,5 +1,5 @@
 ## Table of Contents and Index
-* [1. Introduction](#Introduction)
+* [1. Introduction](#1-Introduction)
   * [1.1 Purpose](#1.1-Purpose)
   * [1.2 Scope](#1.2-Scope)
   * [1.3 Definitions, acronymus, and abbreviations](#1.3-Definictions,-acronyms,-and-abbreviations)
@@ -24,7 +24,7 @@
     * [4.3 Use Cases](#Use-Cases)
     * [4.4 BPMN](#BPMN)
 
-## Introduction 
+## 1 Introduction 
  
 ### 1.1 Purpose 
   
