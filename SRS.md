@@ -24,7 +24,7 @@
     * [4.3 Use Cases](#Use-Cases)
     * [4.4 BPMN](#BPMN)
 
-## 1. Introduction ##
+## 1. Introduction 
  
 ### 1.1 Purpose 
   
