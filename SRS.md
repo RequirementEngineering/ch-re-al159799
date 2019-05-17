@@ -1,5 +1,5 @@
 
-<p align="center"><img src="https://github.com/RequirementEngineering/ch-re-al159799/blob/master/Mind%20Map/firma%20institucional%20uacj-vertical-%202015-color-sin%20fondo.png" height="3600" width="300"></img></p>
+<p align="center"><img src="https://github.com/RequirementEngineering/ch-re-al159799/blob/master/Mind%20Map/firma%20institucional%20uacj-vertical-%202015-color-sin%20fondo.png" height="360" width="300"></img></p>
 
 
 ## Table of Contents and Index
