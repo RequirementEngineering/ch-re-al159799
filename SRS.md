@@ -1,6 +1,8 @@
 
 <p align="center"><img src="https://github.com/RequirementEngineering/ch-re-al159799/blob/master/Mind%20Map/firma%20institucional%20uacj-vertical-%202015-color-sin%20fondo.png" height="360" width="300"></img></p>
-
+  <h3 align="center">Luis Ivan Valdez Anchondo  159949</h3>
+  <h3 align="center">Development of Software Requirements</h3>
+  <h3 align="center">May 2019</h3>
 
 ## Table of Contents and Index
 * [1. Introduction](#1-Introduction)
