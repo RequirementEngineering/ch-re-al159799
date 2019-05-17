@@ -131,6 +131,41 @@ The next sections of the document will contain information about the system, div
   * The interface made in Java will be conected to a data base made on Mysql.
   * The system will be local.
   
+  ### 3.4 User Requirements
+  
+  The User asked for: 
+  
+  * The software most be able to save and load data from the clients.
+  * The software most be able to save and load data form the equipment in the gym.
+  * The interface needs to show different options depending on the user in the system.
+  * The color of the interface most be black any yellow if possible.
+  * The administrator can manage the recepcionist's employees.
+  
+  ### 3.5 System Requirements
+  
+  + Interface
+  
+  * There it will be a login menu.
+  * There it will be two sections one for clients and one the equipment.
+  * There it will be textboxes so the employee enter the data of the client on the client section.
+  * There it will be textboxes so the employee enter the data of the equipment on the equipment section.
+  * The two sections will have a search option.
+  
+  + System
+  
+  * The software will be conected to a mySQL database for it to work.
+  * The users will have a ID and a Password to make a login on the system.
+  
+  ### Supporting Information
+
++ Appendixes
+
+* Elicitation process
+
+  The information of this software was obtained through an informal interview, she was asked a few questions about what she wanted the software to do, and the look's of the inteface also some adittional details.
+  
+  
+
   ### Class Diagram
   
 ![alt text](https://github.com/RequirementEngineering/ch-re-al159799/blob/master/Diagram%20Class.png)
