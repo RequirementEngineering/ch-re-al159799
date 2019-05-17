@@ -26,7 +26,7 @@
 
 ## 1 Introduction 
  
-### 1.1 Purpose 
+## 1.1 Purpose 
   
 The purpose of this project is to design a system and give the user an order regarding the information stored in their gym, you can access it, modify it and update it, all this because they do not have a software with these capabilities, until now they are saving their information in handwritten notes or notes on the computer.
   
