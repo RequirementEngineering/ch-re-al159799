@@ -1,24 +1,24 @@
 ## Table of Contents and Index
 * [1. Introduction](#1-Introduction)
-  * [1.1 Purpose](#11-Purpose)
-  * [1.2 Scope](#1.2-Scope)
-  * [1.3 Definitions, acronymus, and abbreviations](#1.3-Definictions,-acronyms,-and-abbreviations)
-  * [1.4 References](#1.4-Reference)
-  * [1.5 Overview](#1.5-Overview)
-* [2. Overall Description](#2.-Overall-Description)
-  * [2.1 Product Perspective](#2.1-Product-perspective)
-  * [2.2 Product Functions](#2.2-Product-functions)
-  * [2.3 User Characteristics](#2.3-User-characteristics)
-  * [2.4 Contraints](#2.4-Constraint)
-  * [2.5 Assumptions and dependencies](#2.5-Assumptions-and-dependencies)
-  * [2.6 Apportioning of requirements](#2.6-Apportioning-of-requirements)
-* [3. Specific requirements](#3.-Specific-requirements)
-  * [3.1 External Interfaces](#3.1-External-Interfaces)
-  * [3.2 Functional requirements](#3.2-Functional-requirements)
-  * [3.3 Non-functional requirements](#3.3-Non-functional-requirements)
-  * [3.4 User Requirements](#3.4-User-Requirements)
-  * [3.5 System Requirements](#3.5-System-Requirements)
- * [4. Supporting Information](#Supporting-Information)
+  * [1.1 Purpose](#Purpose)
+  * [1.2 Scope](#Scope)
+  * [1.3 Definitions, acronymus, and abbreviations](#Definictions,-acronyms,-and-abbreviations)
+  * [1.4 References](#Reference)
+  * [1.5 Overview](#Overview)
+* [2. Overall Description](#2-Overall-Description)
+  * [2.1 Product Perspective](#Product-perspective)
+  * [2.2 Product Functions](#Product-functions)
+  * [2.3 User Characteristics](#User-characteristics)
+  * [2.4 Contraints](#Constraint)
+  * [2.5 Assumptions and dependencies](#Assumptions-and-dependencies)
+  * [2.6 Apportioning of requirements](#Apportioning-of-requirements)
+* [3. Specific requirements](#3-Specific-requirements)
+  * [3.1 External Interfaces](#External-Interfaces)
+  * [3.2 Functional requirements](#Functional-requirements)
+  * [3.3 Non-functional requirements](#Non-functional-requirements)
+  * [3.4 User Requirements](#User-Requirements)
+  * [3.5 System Requirements](#System-Requirements)
+ * [4. Supporting Information](#4-Supporting-Information)
     * [4.1 Elicitation process](#Elicitation-process)
     * [4.2 Class Diagram](#Class-Diagram)
     * [4.3 Use Cases](#Use-Cases)
@@ -26,11 +26,11 @@
 
 ## 1 Introduction 
  
-## 11 Purpose 
+## Purpose 
   
 The purpose of this project is to design a system and give the user an order regarding the information stored in their gym, you can access it, modify it and update it, all this because they do not have a software with these capabilities, until now they are saving their information in handwritten notes or notes on the computer.
   
-### 1.2 Scope
+### Scope
   
 The software will have the capacity to store information given by the user thanks to an interface connected to a local database, this will allow you to:
   
@@ -44,7 +44,7 @@ The software will have the capacity to store information given by the user thank
  
  All this in order to have a better control of the gym information.
   
-### 1.3 Definictions, acronyms, and abbreviations
+### Definictions, acronyms, and abbreviations
   
 Gym: A gym is a place that allows sports or exercise in an enclosed area with several machines and sporting goods available to those who visit.
 
@@ -53,21 +53,21 @@ Machines: Devices used to perform various exercises, normally located in gyms.
 Dumbbells and / or weights: A dumbbell is a piece of equipment used in weight training, it is a type of free weight. They can be used individually or in pairs (one in each hand).
 
   
-### 1.4 Reference
+### Reference
   
  SPORTS, April 7, 2019 of gymventures https://www.gymventures.com/
   
-### 1.5 Overview
+### Overview
   
 The next sections of the document will contain information about the system, divided in two sections, section 2 will give a overall description, containing the functions, constrains and the people involved. Section 3 will give all the specific requirements that the system should deliver.
   
-## 2. Overall Description ##
+## 2 Overall Description ##
   
-### 2.1 Product perspective
+### Product perspective
   
   The system consist in a software for the user, capable of save information into a data base working localy, with the options of create, modify or delete the information, all of these whit the interface that will be conected to the data base.
   
-### 2.2 Product functions
+### Product functions
   
   These are the functions that the system should do:
   
@@ -84,28 +84,28 @@ The next sections of the document will contain information about the system, div
    * Manage the receptionist information.
    * All the functions of the Receptionist.
   
-### 2.3 User characteristics
+### User characteristics
   
   In this system there are two kind of users, the administrator and the receptionist.
   The receptionist will be in the reception of the gym attending all of the costumers, capturing the costumer information, whit the capacity of modefy the information, also this user will keep an inventory of the machines and equipment of the gym.
   
   The administrator will have the same capabilities as the receptionist but this user can also modify the receptionist information. 
   
-### 2.4 Constraint
+### Constraint
   
   Whithout any at the moment.
   
-### 2.5 Assumptions and dependencies
+### Assumptions and dependencies
   
   The gym will provide the information about the o going costumer and equipment.
   
-### 2.6 Apportioning of requirements
+### Apportioning of requirements
   
   The possibility of doing check out and check in of the costumers.
   
-## 3. Specific requirements ##
+## 3 Specific requirements ##
   
-### 3.1 External Interfaces
+### External Interfaces
   
   Here will be described how the system shold look for the users.
   
@@ -135,7 +135,7 @@ The next sections of the document will contain information about the system, div
  
  This tab is exlusive for the administrator, with two buttons one to see the history of changes that will show a list of the changes and date, the other button will show a list of the employees and their information, this will allow to the administrator to make changes if he hires a new employee or he fires another, with the list of the employees will have two buttons one to delete and another to modify, the modify one will ask the information to modify and the delete one will ask for a confirmation. 
   
-### 3.2 Functional requirements
+### Functional requirements
   
 * The user will have to login to use the system.
   
@@ -152,12 +152,12 @@ The next sections of the document will contain information about the system, div
    * Also can modify the information of the receptionist.
    * See a history of changes made by the receptionist.
   
-  ### 3.3 Non-functional requirements
+  ### Non-functional requirements
 
   * The interface made in Java will be conected to a data base made on Mysql.
   * The system will be local.
   
-  ### 3.4 User Requirements
+  ### User Requirements
   
   * The User asked for: 
     * The software most be able to save and load data from the clients.
@@ -166,7 +166,7 @@ The next sections of the document will contain information about the system, div
     * The color of the interface most be black any yellow if possible.
     * The administrator can manage the recepcionist's employees.
   
-  ### 3.5 System Requirements
+  ### System Requirements
   
   * Interface
   
@@ -181,14 +181,14 @@ The next sections of the document will contain information about the system, div
     * The software will be conected to a mySQL database for it to work.
     * The users will have a ID and a Password to make a login on the system.
   
-  ## Supporting Information
+  ## 4 Supporting Information
   ### Appendixes
 
 * Elicitation process
 
-  The information of this software was obtained through an informal interview, she was asked a few questions about what she wanted the software to do, and the look's of the inteface also some adittional details.
+The information of this software was obtained through an informal interview, she was asked a few questions about what she wanted the software to do, and the look's of the inteface also some adittional details.
   
-  The client already had a very good base of what she wanted, it was quite easy to understand the software she needed, she gave me to understand that in the system there would be two types of users, an administrator and a receptionist, both could have the same functions, which would add and eliminate both the customers and the inventory team that is stored in the system, in addition the administrator would have the ability to manage the other employees of the gym, discharging them or eliminating them if they stop working.
+The client already had a very good base of what she wanted, it was quite easy to understand the software she needed, she gave me to understand that in the system there would be two types of users, an administrator and a receptionist, both could have the same functions, which would add and eliminate both the customers and the inventory team that is stored in the system, in addition the administrator would have the ability to manage the other employees of the gym, discharging them or eliminating them if they stop working.
 
 When asked how she would like the system's interface to be, she said that she would like something simple, but at the same time professional, something with his logo that was not too slow to use, with that information it was concluded that she should be something with enough usability and do the requested functions in a simple way. She also added that she would like combinations of black and yellow, or gray and black, to be used, it was specified that prototypes with different colors would be sent to decide which one would look better.
 
